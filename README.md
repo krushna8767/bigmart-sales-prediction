@@ -1,4 +1,4 @@
-# 🛒 BigMart Sales Forecasting Pipeline
+# BigMart Sales Forecasting Pipeline
 
 This project showcases a complete **Data Engineering + Machine Learning pipeline** using BigMart retail sales data.  
 It covers everything from **data ingestion** and **database creation** to **model training** and **deployment via Streamlit**.
@@ -7,7 +7,33 @@ It covers everything from **data ingestion** and **database creation** to **mode
 
 ---
 
-## 🧱 Architecture Overview
+##  Project Overview
+
+The **BigMart Sales Forecasting Pipeline** aims to predict the sales of different products across various stores for a large retail chain — **BigMart**.  
+This project highlights how raw XML data files can be transformed into a **machine learning-ready dataset**, trained using regression algorithms, and deployed through a **Streamlit web interface** for interactive predictions.
+
+It is designed to reflect a **real-world Data Engineering workflow**:
+- Data is collected from multiple sources
+- Loaded into a structured **MySQL database**
+- Transformed and processed using Python scripts
+- Trained using **Scikit-learn** models
+- Deployed with **Streamlit** for easy end-user access
+
+---
+
+##  Problem Statement
+
+Retail companies like BigMart deal with thousands of products sold across numerous stores in various cities.  
+To optimize operations and forecast inventory, BigMart wants to **predict the sales** of each product based on historical data and product/store features.
+
+This pipeline provides a **reusable, scalable solution** that can:
+- Process data automatically from multiple XML inputs  
+- Train a regression model to forecast sales  
+- Allow users to input product and outlet details to get **real-time predictions**  
+
+---
+
+##  Architecture Overview
 
 ```mermaid
 flowchart TD
