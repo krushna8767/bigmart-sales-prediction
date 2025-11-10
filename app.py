@@ -59,6 +59,7 @@ st.markdown("---")
 st.markdown(
     """
     🔗 **Developed by [krushna shinde](https://github.com/krushna8767)**  
-    📦 Check out the full project on [GitHub](https://github.com/your-github-username/bigmart-sales-prediction)
+    📦 Check out the full project on [GitHub](https://github.com/krushna8767/bigmart-sales-prediction)
     """
 )
+
