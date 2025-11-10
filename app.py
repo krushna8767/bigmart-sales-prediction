@@ -7,7 +7,6 @@ with open("bigmart_best_model.pkl", "rb") as f:
     model, sklearn_version = pickle.load(f)
 
 st.title("🛒 BigMart Sales Prediction App")
-
 st.markdown(f"Using **scikit-learn v{sklearn_version}** model to predict item sales.")
 
 # === User Inputs ===
@@ -54,3 +53,12 @@ if st.button("Predict Sales"):
     # Make prediction
     prediction = model.predict(input_df)[0]
     st.success(f"📈 Predicted Item Outlet Sales: ₹{prediction:.2f}")
+
+# === Footer with GitHub Link ===
+st.markdown("---")
+st.markdown(
+    """
+    🔗 **Developed by [krushna shinde](https://github.com/krushna8767)**  
+    📦 Check out the full project on [GitHub](https://github.com/your-github-username/bigmart-sales-prediction)
+    """
+)
